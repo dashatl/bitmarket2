@@ -1,0 +1,200 @@
+body {
+    font-family: sans-serif;
+    background-color: #FFAA00;
+    margin: 0px;
+}
+
+header {
+    justify-content: space-between;
+    padding: 20px ;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+
+.button {
+    background-color: #FFAA00;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+ 
+.nav-link::before {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/4230/4230232.png");
+    display: inline-block;
+    background-size: cover;
+    height: 30px;
+    content: "";
+    width: 30px;
+    margin-right: 5px;
+}
+
+.nav-link2 {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+ 
+.nav-link2::before {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/8205/8205367.png");
+    display: inline-block;
+    background-size: cover;
+    height: 30px;
+    content: "";
+    width: 30px;
+    margin-right: 5px;
+}
+
+.nav-link3 {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+ 
+.nav-link3::before {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/1792/1792671.png");
+    display: inline-block;
+    background-size: cover;
+    height: 30px;
+    content: "";
+    width: 30px;
+    margin-right: 5px;
+}
+
+.nav-link4 {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+ 
+.nav-link4::before {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/5828/5828764.png");
+    display: inline-block;
+    background-size: cover;
+    height: 30px;
+    content: "";
+    width: 30px;
+    margin-right: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    display: flex;
+    margin: 0px auto 0px auto;
+    max-width: 1100px;
+}
+
+article {
+    background-color: white;
+    padding: 30px ;
+    width: 400px;
+    margin: 10px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color:;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    background-color: #8F04A8;
+    display: block;
+}
+
+footer {
+    background-color: #C262D3;
+    padding: 30px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 150px;
+}
+
+footer a {
+    margin-right: 20px ;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+.article-but2 {
+    text-decoration: none;
+    background-color:;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    background-color: #4DDE00;
+    display: block;
+}
+
+.stata {
+    position: relative;
+}
+
+.hit {
+    position: absolute;
+    width: 80px;
+    left: 360px;
+    top: 96px;
+}
+
+.article-but:hover {
+    background-color: #4DDE00 ;
+}
+
+.article-but2:hover {
+    background-color: #8F04A8;
+}
+
+.nav-link:visited {
+    color: black;
+}
+
+.nav-link2:visited {
+    color: black;
+}
+
+.nav-link3:visited {
+    color: black;
+}
+
+.nav-link4:visited {
+    color: black;
+}
+
+.button:hover {
+    background-color: rgb(255, 230, 197);
+}
